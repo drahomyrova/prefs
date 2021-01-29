@@ -1,0 +1,13 @@
+#!/bin/sh
+path=$1
+function py() {
+	if [[ -n "$packname" ]]; then
+		cd
+        	cd Study/py/${path}/
+	else
+		cd
+		cd Study/py/
+	fi
+}
+
+#other languages/folders:
