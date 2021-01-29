@@ -1,2 +1,1 @@
-# prefs
-Sublime Text 3 
+Custom preferences and settings.
