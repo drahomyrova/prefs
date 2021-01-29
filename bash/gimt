@@ -1,0 +1,11 @@
+#!/bin/bash 
+packname=$1
+if [[ -n "$packname" ]]; then
+	cd packages
+	declare gitoutput=$(git clone https://aur.archlinux.org/${packname}.git)
+	cd ${packname}/
+	makepkg -si PKGBUILD 
+	echo $gitoutput
+else
+	echo "attribute error"
+fi
