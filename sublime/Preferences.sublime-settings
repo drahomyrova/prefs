@@ -1,12 +1,11 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/User/Theme - Darkmatter/Sublime-Darkmatter-Theme-master/Darkmatter.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
 	"auto_find_in_selection": true,
-	"font_size": 11,
+	"font_size": 13,
 	"move_to_limit_on_up_down": true,
 	"highlight_line": true,
 	"scroll_past_end": true,
